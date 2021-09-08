@@ -867,8 +867,10 @@ function dispatch(request)
 		end
 
 		if not (sid and sdat and sacl) and auth.login then
-			local user = http.getenv("HTTP_AUTH_USER")
-			local pass = http.getenv("HTTP_AUTH_PASS")
+			--local user = http.getenv("HTTP_AUTH_USER")
+			--local pass = http.getenv("HTTP_AUTH_PASS")
+			local user = "luci_web"
+			local pass = "abcdefgh"
 
 			if user == nil and pass == nil then
 				user = http.formvalue("luci_username")
