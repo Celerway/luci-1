@@ -3,7 +3,8 @@
 		"description": "Allow system feature probing",
 		"read": {
 			"ubus": {
-				"luci": [ "getFeatures" ]
+				"luci": [ "getFeatures" ],
+				"admb": [ "getSid" ]
 			}
 		}
 	},
