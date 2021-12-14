@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-08-13 04:43+0000\n"
+"PO-Revision-Date: 2021-09-21 15:39+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationstravelmate/pt/>\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:76
 msgid "-- AP Selection --"
@@ -38,7 +38,7 @@ msgstr "Atraso adicional em segundos antes do travelmate processe os gatilhos."
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:430
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:987
 msgid "Anonymous Identity"
-msgstr ""
+msgstr "Identidade anônima"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:411
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:970
@@ -172,7 +172,7 @@ msgstr "Nome do aparelho"
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:439
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:996
 msgid "Disabled"
-msgstr ""
+msgstr "Desativado"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:46
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:132
@@ -308,7 +308,7 @@ msgstr ""
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:426
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:984
 msgid "Identity"
-msgstr ""
+msgstr "Identidade"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:913
 msgid "Ignore BSSID"
@@ -353,6 +353,8 @@ msgstr ""
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:370
 msgid "Limit the nearby scan results to process only the strongest uplinks."
 msgstr ""
+"Limitar os resultados da varredura às ligações ascendentes mais próximas e "
+"com o sinal mais forte."
 
 #: applications/luci-app-travelmate/root/usr/share/luci/menu.d/luci-app-travelmate.json:35
 msgid "Log View"
@@ -375,7 +377,7 @@ msgstr "MSCHAPV2"
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:434
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:991
 msgid "Mgmt. Frame Protection"
-msgstr ""
+msgstr "Gestão de proteção de datagrama"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:355
 msgid ""
@@ -404,7 +406,7 @@ msgstr "Ligado/Desligado"
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:440
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:997
 msgid "Optional"
-msgstr ""
+msgstr "Opcional"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:365
 msgid "Overall Timeout"
@@ -427,6 +429,13 @@ msgid ""
 "connection is emphasized in <span style=\"color:rgb(68, 170, 68);font-weight:"
 "bold\">green</span>."
 msgstr ""
+"Uma visão geral de todas as ligações ascendentes configuradas para o "
+"travelmate. Pode editar, remover ou priorizar as ligações ascendentes já "
+"existentes ao arrastar &#38; soltar para novas ligações. <br /> A ligação "
+"ascendente atualmente usada é destacada na cor <span style=\"color:rgb(51, "
+"119, 204);font-weight:bold\">azul</span>, uma conexão da ligação ascendente "
+"de VPN criptografada fica destacada na cor <span style=\"color:rgb(68, 170, "
+"68);font-weight:bold\">verde</span>."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:412
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:972
@@ -535,7 +544,7 @@ msgstr "Repetir a varredura"
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:441
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:998
 msgid "Required"
-msgstr ""
+msgstr "Necessário"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:277
 msgid "Restart Interface"
@@ -574,7 +583,7 @@ msgstr "Guardar"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:370
 msgid "Scan Limit"
-msgstr ""
+msgstr "Limite de varredura"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:732
 msgid "Scan on"
@@ -736,7 +745,7 @@ msgstr "Atraso do Gatilho"
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:449
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:1005
 msgid "Use system certificates"
-msgstr ""
+msgstr "Usar certificados de sistema"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:548
 msgid "Use the specified MAC address for this uplink."
@@ -766,6 +775,7 @@ msgstr "Configurações da VPN"
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:1005
 msgid "Validate server certificate using built-in system CA bundle"
 msgstr ""
+"Validar o certificado do servidor por usar o pacote CA do sistema incorporado"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:305
 msgid "Verbose Debug Logging"
@@ -823,7 +833,7 @@ msgstr "WPA/WPA2 Pers. (TKIP)"
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:311
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:940
 msgid "WPA2 Ent."
-msgstr ""
+msgstr "WPA2 Ent."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:312
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:941
@@ -922,6 +932,3 @@ msgstr "usar apenas o primeiro rádio (radio0)"
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:310
 msgid "use the second radio only (radio1)"
 msgstr "usar apenas o segundo rádio (radio1)"
-
-#~ msgid "Identify"
-#~ msgstr "Identificar"
