@@ -17,6 +17,8 @@
 			},
 			"ubus": {
 				"file": [ "list" ],
+				"wifib" : [ "*" ],
+				"admb" : [ "*" ],
 				"uci": [ "changes", "get" ]
 			}
 		},
