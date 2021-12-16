@@ -3,7 +3,8 @@
 		"description": "Allow system feature probing",
 		"read": {
 			"ubus": {
-				"luci": [ "getFeatures" ]
+				"luci": [ "getFeatures" ],
+				"admb": [ "getSid", "getSidBasic" ]
 			}
 		}
 	},
@@ -13,7 +14,8 @@
 		"read": {
 			"file": {
 				"/": [ "list" ],
-				"/*": [ "list" ]
+				"/*": [ "list" ],
+				"/bin/create_logs.sh": [ "exec" ]
 			},
 			"ubus": {
 				"file": [ "list" ],
@@ -25,7 +27,10 @@
 		"write": {
 			"cgi-io": [ "upload" ],
 			"file": {
-				"/etc/luci-uploads/*": [ "write" ]
+				"/etc/luci-uploads/*": [ "write" ],
+				"/tmp/clwp/*": ["write"],
+				"/tmp/ipsec/*": ["write"],
+				"/tmp/openvpn/*": ["write"]
 			},
 			"ubus": {
 				"file": [ "remove" ],
